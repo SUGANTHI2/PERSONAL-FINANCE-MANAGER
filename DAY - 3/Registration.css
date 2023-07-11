@@ -1,0 +1,33 @@
+.container1 {
+   padding-right: 50px;
+   padding-left: 50px;
+    max-width: 255px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    display:flex;
+    /* padding: 30px; */
+    border-radius: 25px;
+    background-color: rgba(12, 152, 239, 0.139);
+    /* scroll-behavior: fixed; */
+}
+.main1{
+    padding-left: 500px;
+    /* padding-right: 500px; */
+    padding-top: 5px;
+    height: 600px;
+    width:auto;
+    /* float: inline-start; */
+    background-repeat: no-repeat;
+    background-size:550px; 
+    background-image: url('../assets/i4.png');
+    /* background-image: url("https://media.istockphoto.com/id/1169974807/photo/hand-arranging-wood-block-stacking-as-step-stair-on-paper-pink-background-business-concept.webp?b=1&s=170667a&w=0&k=20&c=1q1AJ4aeb5OEs3cwojaCZRsOIPWJy_BTEBpkIXWzsB4="); */
+}
+.select{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.option{
+    min-width: 500px;
+}
