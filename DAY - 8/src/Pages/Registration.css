@@ -1,0 +1,34 @@
+.container1 {
+    padding-top: 1rem;
+   padding-right: 50px;
+   padding-left: 50px;
+    max-width: 255px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    display:flex;
+    /* padding: 30px; */
+    border-radius: 25px;
+    background-color: rgba(12, 152, 239, 0.139);
+    /* scroll-behavior: fixed; */
+}
+.main1{
+    padding-left: 500px;
+  
+    padding-top: 4rem;
+    height: 600px;
+    width:45rem;
+   
+    background-repeat: no-repeat;
+    /* background-size:550px;  */
+    background-image: url('../assets/r.jpg');
+    
+}
+.select{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.option{
+    min-width: 500px;
+}
