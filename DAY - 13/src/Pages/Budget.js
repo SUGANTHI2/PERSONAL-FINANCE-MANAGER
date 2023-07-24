@@ -1,0 +1,95 @@
+import React ,{Component}from 'react';
+import { Link } from 'react-router-dom';
+ import './Budget.css';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+class Budget extends Component{
+    state={clicked:false};
+    handleClick=()=>{
+        this.setState({clicked:!this.state.clicked})
+    }
+    render(){
+    return ( 
+        <>
+       <header>
+        <div className="mc">
+        <nav>
+            <h1 style={{fontFamily:'unset' ,color:'#00CED1' ,fontSize:'25px'}}>EXPENSIFY</h1>
+            <div >
+                <ul  id="navbar" className={this.state.clicked?"#navbar active":"navbar"}>
+                    <li><Link to="/HomePage">Home</Link></li>
+                    <li><Link to='/Income'>My Income</Link></li>
+                    <li><Link to ='/Expense'>Expense</Link></li>
+                    <li><Link to ='/Budget'>Budget</Link></li>
+                    <li><Link to ='/Debt'>Debt</Link></li>
+                    <li><Link to ='/Goal'>Goal Setting</Link></li>
+                </ul>
+            </div>
+            <div id="mobile" onClick={this.handleClick}>
+                <i id="bar" className={this.state.clicked ?"fas fa-times":"fas fa-bars"}></i>
+            </div>
+        </nav>
+        </div>
+        </header>
+       <body>
+       <div className="bd2">
+        <center>
+            <h4>POCKET BOOK</h4>
+            <div className='bd'>
+
+               <div className='l'>
+               <label>AMOUNT</label>
+               </div>
+               
+               <div className='l1'>
+               <TextField id="income" label="Amount" variant="standard" /><br></br><br></br><br></br>
+               </div>
+
+               <div className='l'>
+               <label>DESCRIPTION</label>
+               </div>
+
+               <div className='l1'>
+               <TextField id="income" label="Description" variant="standard" /><br></br><br></br><br></br>
+               </div>
+               <br></br>
+               <Button variant='contained' style={{ backgroundColor: '#2EFFFF', color: 'black', border: '2px solid black' }}>
+      ADD
+    </Button>
+            </div>
+
+            </center>
+            <br></br>
+            <br></br>
+        <div className='ta'>
+                <table>
+                    <thead>
+                            <th>AMOUNT</th>
+                            <th>DESCRIPTION</th>
+                            <th>ACTION</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>100</td>
+                            <td>Some notes here</td>
+                            {/* <td>2023-07-22</td> */}
+                            <td>
+
+                            <div className='ta'>
+                                <button id='two'>EDIT</button>
+                                <button id='three'>DELETE</button>
+                            </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+    
+       </div>
+        </body>   
+        </>
+     );
+    }
+    
+}
+export default Budget;

@@ -1,0 +1,111 @@
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    
+}
+.bd2{
+    /* background-image:linear-gradient(45deg, 
+    rgba(255, 255, 255, 0.75),
+     rgba(88, 234, 247, 0.75)); */
+     padding-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 120vh;
+    width:100vw;
+}
+.bd3{
+    float:center;
+    border-radius: 6px;
+    color:rgb(0, 0, 0);
+    box-shadow: 0 0 20px black;
+    width:35vw;
+    height:95vh;
+    padding-top: 2rem;
+    background-color:darkgray;
+    padding-bottom: 4rem;
+    /* padding-left: 30%; */
+    font-weight: bold;
+} 
+.l{
+    padding-right:15rem;
+    /* padding-bottom: 5px; */
+}
+.l1{
+    padding-top: 1rem;
+    padding-left: 7rem;
+}
+.d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    outline: none;
+    width: 250px;
+    background-color: darkgray;
+  }
+  table {
+    /* padding:30%; */
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+   
+
+#gtwo{
+    width: 23%;
+}
+#gthree{
+    width: 30%;
+}
+.ta1{
+    display: flex;
+    gap: 10%;
+}
+.ta1 button:hover {
+    background-color: darkgray;
+    transition: all 0.2s ease-out;
+    border-radius: 4px;
+    /* color: red; */
+}
+.ta1 button {
+    padding: 8px 10px;
+    background-color: #2EFFFF;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    font-family: unset;
+    font-size: 15px;
+}

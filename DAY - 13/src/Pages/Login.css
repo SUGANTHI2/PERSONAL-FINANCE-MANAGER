@@ -1,0 +1,62 @@
+/* Base styles for all screen sizes */
+.d2 {
+    width: 50%;
+    height: 400px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    border-radius: 20px; /* Corrected the border-radius property */
+    padding-left: 20%;
+    background-image: url("../assets/i.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+.d3 {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.d1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 600px;
+}
+
+.main2 {
+    font-family: cursive;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .d2 {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-bottom: 50px;
+        background-size: 300px; /* Adjust the background size for smaller screens */
+    }
+    .d3 {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .d1 {
+        height: 400px; /* Adjust the height for smaller screens */
+    }
+}
+
+/* Media query for medium-sized screens */
+@media (max-width: 1024px) {
+    .d2 {
+        background-size: 400px; /* Adjust the background size for medium-sized screens */
+    }
+}
+
+/* Media query for larger screens (you can add more breakpoints if needed) */
+@media (min-width: 1200px) {
+    .d2 {
+        background-size: 600px; /* Adjust the background size for larger screens */
+    }
+}
