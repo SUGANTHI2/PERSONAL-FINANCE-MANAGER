@@ -1,0 +1,31 @@
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    
+}
+.mc{
+    height: 5%;
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+   position: relative;
+   /* overflow-y: hidden; */
+}
+
+.content{
+    background-image: url('../assets/f4.jpg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    /* padding-top: 515px; */
+}
+.c1{
+    text-align: center;
+    /* padding-bottom: 350px; */
+    /* padding-left: 400px; */
+}
